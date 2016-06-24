@@ -1,0 +1,22 @@
+{
+  "name": "anyt/expressins-benchmark",
+  "description": "Comparing performance of Oro and Symfony expression language",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Yatsenco",
+      "email": "yatsenco@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.orocrm.com"
+    }
+  ],
+  "require": {
+    "symfony/symfony": "3.1.*",
+    "doctrine/cache": "~1.6.0"
+  },
+  "minimum-stability": "dev"
+}
